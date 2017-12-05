@@ -109,6 +109,7 @@ Options:
 
                         
 Example procedure:
+Download the fastq files from GEO database and put them in example_data/raw_data folder
 
           cd /home/optiCLIP/
           python ./optiCLIP.py -o /home/example_output/ -a TTCTACAGTCCGACGAT -e TTCTCGGGTGCCAA -t /home/example_temp/ -p 0.1 -r 2 -d /home/homer/data/genomes/mm10/ -g mm10  /home/example_data/example_file_fastq.list /home/mm10.idx /home/example_data/mirna_fasta_seq.txt
